@@ -1,7 +1,6 @@
 ---
 - name: Create git workflow
-  hosts: localhost
-  connection: local
+  hosts: bastion
   roles:
     - create_workflow
 
